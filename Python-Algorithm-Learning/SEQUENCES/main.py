@@ -8,16 +8,16 @@ def fibonacci():
 
     print("\n\tFIBONACCI SERIES\n")
 
-    terms = option_input("Enter number of terms: ")
+    Fibonacci = option_input ("Enter number of terms: ")
 
-    if terms <= 0:
+    if Fibonacci <= 0:
         print("Number of terms should be greater than 0.")
         return
 
     print("\nStarting Fibonacci algorithm...")
     press_enter()
 
-    fibonacci_series(terms)
+    fibonacci_series(Fibonacci)
 
 
 def factorial():
@@ -65,16 +65,16 @@ def main():
         elif option == 0:
             return
 
-        elif option == 3:
+        elif  option == 3:
 
             print("""
             
-            Thank you for joining us.
-
-            Keep Learning and Enjoying!
+                THANK YOU!!!
+                
+             
             """)
 
             programming = False
 
         else:
-            print("\nPlease enter a number from 0 to 3.")
+            print("\n   Please enter a number from 0 to 3.")
