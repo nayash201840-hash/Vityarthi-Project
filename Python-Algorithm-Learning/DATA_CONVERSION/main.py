@@ -6,7 +6,7 @@ from DATA_CONVERSION.common_c.common_codes_main_page_working import *
 
 def dec_to_hex_run():
 
-    print("\n\tDECIMAL TO HEXADECIMAL\n")
+    print("\n \t  DECIMAL TO HEXADECIMAL  \n")
 
     number = option_input("Enter a decimal number: ")
 
@@ -73,12 +73,10 @@ def main():
 
             print("""
             
-            Thank you for joining us.
-
-            Keep Learning and Enjoying!
+            THANK YOU!!!
             """)
 
             programming = False
 
         else:
-            print("\nPlease enter a number from 0 to 3.")
+            print("\n  Please enter a number from 0 to 3.")
