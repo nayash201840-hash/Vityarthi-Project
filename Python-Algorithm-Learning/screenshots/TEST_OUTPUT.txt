@@ -1,0 +1,8 @@
+Full-screen screenshots were not captured because the available computer-use environment reported no desktop apps or browser surfaces.
+
+Supplementary executed evidence:
+
+- python -B -m unittest discover -s tests -v: 8 tests passed.
+- Root navigation input sequence 9, 1, 0, 2, 0, 3, 0, 4, 0, 0: exited with code 0; invalid selection was handled; all four modules opened and returned.
+- Root algorithm examples: Fibonacci (7 terms) returned [0, 1, 1, 2, 3, 5, 8]; 0 factorial returned 1; decimal 255 converted to FF; invalid binary 102 was rejected; binary 1010 converted to 10.
+- Repeat the checks using the test suite and commands in README.md.
