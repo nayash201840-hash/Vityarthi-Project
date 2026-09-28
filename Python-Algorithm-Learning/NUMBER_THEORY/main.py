@@ -9,8 +9,8 @@ def gcd():
 
     print("\n\tGCD\n")
 
-    fst = option_input("Enter first number: ")
-    sec = option_input("Enter second number: ")
+    fst = option_input("Enter first number:")
+    sec = option_input("Enter second number:")
 
     print("\nStarting GCD algorithm...")
     press_enter()
@@ -23,37 +23,36 @@ def gcd():
 
 def prime_num():
 
-    print("\n\tPRIME NUMBER\n")
+    print("\n\t  PRIME NUMBER   \n")
 
-    number = option_input("Enter a number: ")
+    num = option_input("Enter a number:")
 
     print("\nStarting prime number algorithm...")
     press_enter()
 
-    result = check_prime(number)
+    result = check_prime(num)
 
     print("\nResult:")
 
     if result:
-        print(number, "is a prime number.")
+        print(num, "is a prime number.")
     else:
-        print(number, "is not a prime number.")
+        print(num, "is not a prime number.")
 
 
 def prime_factor():
 
-    print("\n\tPRIME FACTORIZATION\n")
+    print("Prime Factorization")
+    num = int(input("Enter a number: "))
 
-    number = option_input("Enter a number: ")
-
-    if number <= 0:
+    if num <= 0:
         print("Please enter a positive number.")
         return
 
     print("\nStarting prime factorization...")
     press_enter()
 
-    Factors = prime_factors(number)
+    Factors = prime_factors(num)
 
     print("\nPrime Factors:", Factors)
 
@@ -99,12 +98,10 @@ def main():
 
             print("""
             
-            Thank you for joining us.
-
-            Keep Learning and Enjoying!
+           THANK YOU!!!
             """)
 
             programming = False
 
         else:
-            print("\nPlease enter a number from 0 to 4.")
+            print("\n  Please enter a number from 0 to 4.")
